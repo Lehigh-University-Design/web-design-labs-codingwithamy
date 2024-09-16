@@ -98,3 +98,69 @@ p{
 .bold {
     font-weight: 900;
 }
+
+/* lab 2 styles */
+.logo-holder {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--body-color);
+    font-weight: bold;
+}
+
+#logo {
+    height: 3em;
+    width: auto;
+    float: left;
+    margin-right: .5em;
+}
+
+/* this tells the heading with the logo to stay on the same line and not have the staircase effect */
+.sub-head {  
+    display: flex;
+    align-items: center;
+}
+/* lab 3 styles */
+
+.hide-me {
+    display: none;
+}
+
+
+.post span {
+    color: coral;
+}
+
+.block-div, .block {
+    display: block;
+    border-radius: 1em;
+    color: cornflowerblue;
+    background-color: beige;
+    border: 1px solid var(--dark-color);
+    padding: 1em;
+}
+
+.block {
+    margin: 1em 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.2em 0.8em;
+    color: var(--dark-color) !important;
+    background-color: coral;
+    transform: rotate(-8deg);
+    font-weight: 800;
+    font-variation-settings: "wdth" 60;
+}
+
+.static {
+    position: static;
+    border: 1px solid var(--dark-color);
+}
+
